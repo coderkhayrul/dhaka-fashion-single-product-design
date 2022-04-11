@@ -1,0 +1,195 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Dhaka Fashion
+	Template URL: #
+	Description: Developed By Uraa Softs
+	Author: Arman Rahman, Khayrul Shanto, Amit Chowdhury, Sajal Ghosh, Seeam Ahmod 
+	Author URL: #
+	License: GNU General Public 
+	Version: 2022.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Global Varable
+	3. Header Area
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+/************** Variable ************************/
+:root {
+	--brand-color: #00c8c8;
+	--brand-background: #ffffff;
+	--brand-dark: #b9b1b1;
+	--brand-light: #f8f8f8;
+	--font-light: 'Proxima Nova Lt';
+	--font-bold: 'Proxima Nova Rg';
+}
+
+
+/************** Global ************************/
+.theme-color {
+	color: #00c8c8;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-light);
+	font-weight: 600;
+	font-size: 13px;
+}
+
+body {
+	background-color: var(--brand-background);
+}
+
+.main_slider {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.main_slider img {
+	width: 100%;
+	display: block;
+}
+
+.pre_arrow {
+	color: rgb(0, 0, 0);
+	width: 30px;
+	height: 40px;
+	border-radius: 10%;
+	text-align: center;
+	line-height: 53px;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	bottom: 0;
+	left: 1%;
+	right: 0;
+}
+
+.next_arrow {
+	color: rgb(0, 0, 0);
+	width: 30px;
+	height: 40px;
+	border-radius: 10%;
+	text-align: center;
+	line-height: 53px;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	bottom: 0;
+	left: 92%;
+	right: 0;
+}
+
+.pre_arrow:hover {
+	color: rgb(255, 255, 255);
+	width: 30px;
+	height: 40px;
+	background: var(--brand-color);
+	border-radius: 10%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.next_arrow:hover {
+	color: rgb(255, 255, 255);
+	width: 30px;
+	height: 40px;
+	background: var(--brand-color);
+	border-radius: 10%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.uraa_review:hover {
+	color: #00c8c8;
+	cursor: pointer;
+}
+
+.product-tag {
+	cursor: pointer;
+
+}
+
+.add-cart {
+	height: 50px;
+	width: 40%;
+	border: 2px solid black;
+	background: rgb(255, 255, 255);
+	color: black;
+	border-radius: 0;
+}
+
+.add-cart:hover {
+	background: black;
+	color: white;
+	transition: 0.4s;
+}
+
+.add-lookbook {
+	width: 50%;
+	height: 50px;
+	border: 2px solid black;
+	background: rgb(255, 255, 255);
+	color: black;
+	margin: 0 10px;
+	border-radius: 0;
+}
+
+.add-lookbook:hover {
+	background: black;
+	color: white;
+	transition: 0.4s;
+}
+
+.compare {
+	padding: 10px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+
+
+
+/* Style the tab */
+.tab {
+	/* overflow: hidden; */
+	padding: 0;
+	background-color: #f8f8f8;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	/* border: 1px solid #ccc; */
+	border-top: none;
+}
