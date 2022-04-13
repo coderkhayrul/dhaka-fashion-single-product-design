@@ -1,0 +1,23 @@
+/* All Device Responsive  */
+@media all and (max-width: 720px) {
+    .product-detaile{
+        margin: 0 50px;
+    }
+    .product-detaile h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .product-reviews{
+        text-align: center;
+    }
+    .price{
+        justify-content: center;
+    }
+    .product-info{
+        align-items: center;
+    }
+
+    .product-shop{
+        text-align: center;
+    }
+}
